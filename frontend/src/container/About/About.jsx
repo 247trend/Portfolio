@@ -2,7 +2,6 @@ import { motion } from 'framer-motion'
 import { useState, useEffect } from 'react'
 
 import './About.scss'
-import { images } from '../../constants'
 import { urlFor, client } from '../../client'
 import { AppWrap } from '../../wrapper'
 import { MotionWrap } from '../../wrapper'
@@ -17,9 +16,9 @@ const About = () => {
   return (
     <>
       <h2 className='head-text'>
-        I Know That <span>Good Apps </span>
+        I Know That <span>Keep Learning </span>
         <br />
-        means<span> Good Business </span>
+        Is<span> Essential </span>For Developers.
       </h2>
 
       <div className='app__profiles'>
